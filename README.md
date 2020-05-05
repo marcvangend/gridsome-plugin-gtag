@@ -15,7 +15,7 @@ module.exports = {
     {
       use: 'gridsome-plugin-gtag',
       options: {
-        id: 'UA-XXXXXXXXX-X'
+        config: { id: "UA-XXXXXXXXX-X" },
       }
     }
   ]
