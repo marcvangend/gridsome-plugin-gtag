@@ -1,7 +1,7 @@
-import VueAnalytics from 'vue-analytics'
+import VueGtag from "vue-gtag";
 
 export default function (Vue, options, { isServer: disabled, router }) {
-  Vue.use(VueAnalytics, {
+  Vue.use(VueGtag, {
     debug: {
       sendHitTask: process.env.NODE_ENV === 'production'
     },
